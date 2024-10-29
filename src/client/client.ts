@@ -7,7 +7,7 @@ const scene = new THREE.Scene()
 scene.add(new THREE.AxesHelper(5))
 
 const light = new THREE.DirectionalLight(0xffffff, 10)
-light.position.set(0, 5, 10)
+light.position.set(0, 6, 10)
 scene.add(light)
 
 const camera = new THREE.PerspectiveCamera(
